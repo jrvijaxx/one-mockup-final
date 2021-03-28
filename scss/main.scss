@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ececf0;
+  font-family: "Inter", sans-serif;
+
+  .wrapper {
+    height: 100vh;
+    .social {
+      width: 80px;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid #dbdbdb;
+
+      .social-handles {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+
+        .logo {
+          margin-left: 10px;
+        }
+
+        margin-top: 550px;
+        margin-left: 15px;
+
+        a {
+          padding: 20px 0;
+        }
+      }
+    }
+    .devices {
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: 1px solid #dbdbdb;
+      background-color: #fff;
+      // width: 397px;
+      height: 100vh;
+
+      .upload {
+          padding: 20px 30px;
+          border-bottom: 1px solid #dbdbdb;
+          position: absolute;
+          top: 0;
+          right: 0;
+        a {
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 145%;
+            padding-left: 2px;
+          /* or 23px */
+          text-align: center;
+
+          /* Black */
+          color: #0a0a0a;
+        }
+      }
+
+      .download {
+        padding: 20px 30px;
+        border-bottom: 1px solid #dbdbdb;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color:#1a73e8;
+      a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 145%;
+          padding-left: 2px;
+        /* or 23px */
+        text-align: center;
+
+        /* Black */
+        color: #ffffff;
+      }
+    }
+    }
+  }
+}
